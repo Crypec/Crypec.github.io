@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on School Notes</title>
-    <link>http://Crypec.github.io/tags/</link>
+    <link>https://crypec.github.io/tags/</link>
     <description>Recent content in Tags on School Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2020 Simon Kunz.</copyright>
     
-        <atom:link href="http://Crypec.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://crypec.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Steppenwolf</title>
-      <link>http://Crypec.github.io/posts/steppenwolf/</link>
+      <link>https://crypec.github.io/posts/steppenwolf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://Crypec.github.io/posts/steppenwolf/</guid>
+      <guid>https://crypec.github.io/posts/steppenwolf/</guid>
       <description>&lt;h2 id=&#34;aufbau-des-romans&#34;&gt;Aufbau des Romans&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
