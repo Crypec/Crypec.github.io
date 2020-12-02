@@ -6,10 +6,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2020 Simon Kunz.</copyright>
-    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0200</lastBuildDate>
     
         <atom:link href="https://crypec.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vektorenrechnung</title>
+      <link>https://crypec.github.io/posts/vektorrechnung/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://crypec.github.io/posts/vektorrechnung/</guid>
+      <description>&lt;h2 id=&#34;abstand-punkt-ebene-hessesche-normalform&#34;&gt;Abstand Punkt Ebene: Hessesche Normalform&lt;/h2&gt;
+&lt;p&gt;Gegeben sind \(Punkt S\) Und \(Ebene E\), gesucht wird der Abstand \(d\).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Verbindungsvektor zwischen Orts \(\perp\) zur Ebene
+11\[ \vec{PS} = \vec{S} - \vec{p} \]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Komponenten der Verbindungsvektor \(\perp\) zur Ebene
+\[S \not\in E\]
+\[ d = |(\vec{S} - \vec{p}) \cdot \vec{n_0}|\]&lt;/p&gt;
+&lt;div class=&#34;LaTex&#34;&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;p&gt;Darstellung ist formal mit der Normalengleichung einhergehend.&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+x \in E \\\&lt;br&gt;
+0 = (\vec{x} - \vec{p}) \cdot \vec{n}
+\end{equation}&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;winkel&#34;&gt;Winkel&lt;/h2&gt;
+&lt;h4 id=&#34;formel&#34;&gt;Formel&lt;/h4&gt;
+&lt;p&gt;\[\sin(\alpha) = \frac{|\vec{a}\times\vec{b}|}{|\vec{a}| \cdot |{\vec{b}}|\]
+\[\cos(\alpha) = \frac{\vec{a}\cdot\vec{b}}{|\vec{a}| \cdot |{\vec{b}}|\]&lt;/p&gt;
+&lt;p class=&#34;verse&#34;&gt;
+Konvention: Winkel zwischen 2 Geraden jeweils der kleinere!&lt;br /&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;kreuzprodukt-und-flaeche&#34;&gt;Kreuzprodukt und Flaeche&lt;/h4&gt;
+&lt;div class=&#34;LATEX&#34;&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;p&gt;\begin{equation}
+\begin{aligned}
+A &amp;amp;= |\vec{a}| \cdot h \\\&lt;br&gt;
+&amp;amp;= |\vec{a}| \cdot |\vec{b}| \cdot \sin(\alpha) \\\&lt;br&gt;
+&amp;amp;= |\vec{a}| \times |\vec{b}| \\\&lt;br&gt;
+\end{aligned}
+\end{equation}&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;volumen-eines-von-3-vektoren-aufgespannten-schiefwinkligen-koerpers--spat&#34;&gt;Volumen eines von 3 Vektoren aufgespannten Schiefwinkligen Koerpers (Spat)&lt;/h2&gt;
+&lt;p&gt;&lt;img  src=&#34;https://crypec.github.io/ox-hugo/Vektoren_SpatProd.png&#34;
+        alt/&gt;
+\[V = (\vec{a} \cdot \vec{b}) \cdot \vec{c}\]&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The class system in the UK</title>
@@ -381,6 +433,39 @@ As I described above, I think we are seeing a&lt;br /&gt;
     </item>
     
     <item>
+      <title>Der (freie) Markt</title>
+      <link>https://crypec.github.io/posts/markt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://crypec.github.io/posts/markt/</guid>
+      <description>&lt;p&gt;Unter Markt verthet man jeden Ort, an dem Angebot und Nachfrage zusammentreffen und sich die Marktpreise bilden.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Anbieter&lt;/th&gt;
+&lt;th&gt;Nachfrager&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Will: Produkt teuer verkaufen&lt;/td&gt;
+&lt;td&gt;Will: Produkt guenstig kaufen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hoher Preis&lt;/td&gt;
+&lt;td&gt;niedriger Preis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class=&#34;verse&#34;&gt;
+Marktpreis/Gleichgewichtspreis&lt;br /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;marktarten&#34;&gt;Marktarten&lt;/h2&gt;
+&lt;p&gt;Nach Art der gehandelten Gueter unterscheidet man verschiedene Marktarten.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Der kalte Krieg</title>
       <link>https://crypec.github.io/posts/kalter_krieg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -703,106 +788,6 @@ SPD-Opposition: **Wiedervereinigung** als oberstes Ziel&lt;br /&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Die Quelle M1 zeigt, dass die Gruendung der DDR anders dargestellt wurde, als es in Wirklichkeit der Fall war. Waehrend der Staat die Gruendung weitgehend mystifizierte und glorifizierte blieb die starke Steuerung hinter den politischen Organisationen ausser Acht.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kurvendiskusion</title>
-      <link>https://crypec.github.io/posts/kurvendiskussion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://crypec.github.io/posts/kurvendiskussion/</guid>
-      <description>&lt;h2 id=&#34;stammfunktion&#34;&gt;Stammfunktion&lt;/h2&gt;
-&lt;p&gt;Eine Funktion \(F(x)\) fuer die gilt \(F\prime(x) = f(x)\) nennt man Stammfunktion von \(f\)&lt;/p&gt;
-&lt;p class=&#34;verse&#34;&gt;
-Vorsicht: Beim Ableiten geht das konstante Glied verloren. -&gt; Informationsverlust -&gt; keine voellige Symetrie zwischen Ableitung und Stammfunction.&lt;br /&gt;
-Folge: Konstantes Glied bei Stammfunktion ist nicht bestimmt.&lt;br /&gt;
-Folge2: Stammfunktion ist nicht notwendigerweise Flaecheninhaltsfunktion.&lt;br /&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;hauptsatz-der-differential-und-integralrechnung&#34;&gt;Hauptsatz der Differential- und Integralrechnung&lt;/h2&gt;
-&lt;p&gt;&lt;img  src=&#34;https://crypec.github.io/ox-hugo/integral_rechnung.png&#34;
-        alt/&gt;
-\[A = \int_{a}^{b }f(x) dx = F(b) - F(a) \]&lt;/p&gt;
-&lt;h3 id=&#34;rechentechnik-integralrechnung&#34;&gt;Rechentechnik Integralrechnung&lt;/h3&gt;
-&lt;p&gt;Ableitungsregeln rueckwaerts gelesen.&lt;/p&gt;
-&lt;h4 id=&#34;klippe-kettenregel&#34;&gt;Klippe Kettenregel&lt;/h4&gt;
-&lt;p&gt;Beschraenkung auf lineare innere Funktion.&lt;/p&gt;
-&lt;!--list-separator--&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Beispiel&lt;/p&gt;
- &lt;div class=&#34;latex&#34;&gt;
-   &lt;div&gt;&lt;/div&gt;
-&lt;p&gt;\begin{equation*}
-\begin{align}
-f(x) &amp;amp;= \cos(ax + b) \\\&lt;br&gt;
-F(x) &amp;amp;= \frac{1}{a} * \sin(ax + b) + c \\\&lt;br&gt;
-\end{align}
-\end{equation*}&lt;/p&gt;
- &lt;/div&gt;
- &lt;p class=&#34;verse&#34;&gt;
- Praktisch wichtig: Jedes mal zur Probe Integration wieder ableiten.&lt;br /&gt;
- &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Minorities in Britain</title>
-      <link>https://crypec.github.io/posts/minorities_in_britain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://crypec.github.io/posts/minorities_in_britain/</guid>
-      <description>&lt;h2 id=&#34;text-what-is-it-like-to-be-a-muslim-in-britain-today&#34;&gt;Text: What is it like to be a Muslim in Britain today?&lt;/h2&gt;
-&lt;h3 id=&#34;exercise-page-127-no-dot-2&#34;&gt;Exercise: Page 127 No. 2&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;6a&lt;/li&gt;
-&lt;li&gt;1g&lt;/li&gt;
-&lt;li&gt;4c&lt;/li&gt;
-&lt;li&gt;2d&lt;/li&gt;
-&lt;li&gt;5f&lt;/li&gt;
-&lt;li&gt;3a&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;exercise-page-128-no-dot-5&#34;&gt;Exercise: Page 128 No. 5&lt;/h3&gt;
-&lt;h4 id=&#34;negative-aspects-of-life-in-britain-as-a-muslim&#34;&gt;negative aspects of life in Britain as a Muslim&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;being stereotyped by society&lt;/li&gt;
-&lt;li&gt;racism and islamophobia&lt;/li&gt;
-&lt;li&gt;being stereotyped as less rational&lt;/li&gt;
-&lt;li&gt;beeing depicted by sensational or distorted headlines in the media&lt;/li&gt;
-&lt;li&gt;verbal and physical islamophobic abuse&lt;/li&gt;
-&lt;li&gt;being rejected for having a different culture&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;comparison-to-the-situation-in-germany&#34;&gt;comparison to the situation in germany&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;I can&amp;rsquo;t know, I&amp;rsquo;m not a muslim.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;extra-exercise-questions-to-a-muslim&#34;&gt;extra exercise: questions to a muslim&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;How would you rate your experience as a muslim in Germany?&lt;/li&gt;
-&lt;li&gt;Do you think Germany has a racism problem?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;interpreting-charts-and-graphs&#34;&gt;Interpreting Charts and Graphs&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p class=&#34;verse&#34;&gt;
-Describe the graph. This does not mean listing all the details but describing what the diagramm show and what sort of information is presented.&lt;br /&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p class=&#34;verse&#34;&gt;
-Summarize the trends and development and/or levels shown. What conculsion can be drawn from the data? Is it possible to summarize the results.&lt;br /&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p class=&#34;verse&#34;&gt;
-Compare the diagram with a text (if the tasks requires it). Go back to the text and look for sections whire are significant in relation to the diagramm. State wheter you think the diagram supports the message of the text or contradicts it.&lt;br /&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;exercise-interpret-the-graphic&#34;&gt;Exercise: Interpret the graphic&lt;/h3&gt;
-&lt;p&gt;The graphic might hint at a media bias for overreporting on immigrant crime.&lt;/p&gt;
 </description>
     </item>
     
